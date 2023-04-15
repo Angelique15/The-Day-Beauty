@@ -1,0 +1,108 @@
+@import "../utils/variables";
+
+#modal
+{
+    /* Establecer posición fija y ajustar la ubicación del modal en el centro de la pantalla */
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(223, 193, 238, 0.726);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
+    /* Ocultar el modal por defecto */
+    display: none;
+}
+
+#modal-content
+{
+    /* Establecer los estilos del contenido del modal */
+    width: 500px;
+    height: 300px;
+    background-color: rgba(223, 193, 238, 0.726);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.247);
+}
+
+#modal-content h2
+{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #6928aa;
+    text-align: center;
+}
+
+#close-btn
+{
+    /* Establecer los estilos del botón de cerrar */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 30px;
+    color: #aaa;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#close-btn:hover
+{
+    /* Cambiar el color del botón de cerrar cuando se coloca el cursor sobre él */
+    color: black;
+}
+
+.form--register
+{
+    /* Establecer los estilos del formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form--register:nth-child(1)
+{
+    color: #6928aa;
+}
+
+.register--btn
+{
+    /* Establecer los estilos del botón de enviar */
+    background-color: #8B5CF6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input--mail
+{
+    padding: 8px;
+    font-family: inherit;
+    background-color: $very-pale;
+    padding: 10px;
+    border: 1px solid #d6c8e4;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+label
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    color: #6928aa;
+}
+
+.register--btn:hover
+{
+    /* Cambiar el color de fondo del botón de enviar cuando se coloca el cursor sobre él */
+    background-color: #6928aa;
+}

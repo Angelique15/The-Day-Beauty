@@ -1,0 +1,81 @@
+@import "../utils/variables";
+
+.head__container
+{
+    background-color: $white;
+    width: 1849px;
+    padding-top: 56px;
+    margin-left: 104px;
+
+}
+
+.header--img
+{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    height: 713px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+.logo__icon
+{
+    fill: $Soft-violet;
+    width: 54px;
+    height: 43px;
+    left: 104px;
+    top: 58px;
+    margin-right: 5px;
+}
+
+.head__btn
+{
+    justify-content: space-between;
+    margin-left: 104px;
+}
+
+.btn--mem,
+.btn--pri
+{
+    width: 223px;
+    height: 53px;
+    color: $white;
+    font-family: $ocasional-font;
+    background: linear-gradient(4.01deg, #8240ce 3.04%, #a884e2 96.51%);
+    box-shadow: 0 0 20px rgba(34, 26, 44, 0.212);
+    border: none;
+    border-radius: 4px;
+    margin-top: 64px;
+
+}
+
+.head__container--par
+{
+    font-family: $title-font;
+    font-size: 56px;
+    font-weight: 900;
+    margin-left: 104px;
+    margin-right: 1550px;
+}
+
+.highlight
+{
+    color: $Soft-violet;
+}
+
+.head__container--slogan
+{
+    color: $Soft-violet;
+    font-family: $ocasional-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    margin-left: 5px;
+
+}

@@ -1,0 +1,95 @@
+@import "../utils/variables";
+
+footer
+{
+    margin-top: 200px;
+    min-height: 156px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+footer
+{
+    display: flex;
+}
+
+.footer-section
+{
+    justify-content: space-between;
+    margin-left: 104px;
+    margin-right: 174px;
+}
+
+.footer-section__menu
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: -70px;
+    color: $darkshade-blue;
+
+}
+
+.section__menu
+{
+
+    display: flex;
+    margin-right: 70px;
+    padding-bottom: 5px;
+}
+
+.menu__about
+{
+    padding-right: 70px;
+}
+
+.contact--list
+{
+    margin-top: 32px;
+}
+
+.contact--icon
+{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    fill: $darkshade-blue;
+}
+
+
+.form__container
+{
+
+    margin-top: -9px;
+    color: $black;
+
+}
+
+.footer--input
+{
+    width: 301px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 2px solid $black;
+    background-color: transparent;
+    outline: none;
+}
+
+.input--icon
+{
+    width: 17px;
+    height: 17px;
+}
+
+.submit--btn
+{
+    background-color: transparent;
+    border: none;
+
+}
+
+.input--text
+{
+    color: $black;
+}

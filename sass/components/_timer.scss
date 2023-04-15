@@ -1,0 +1,37 @@
+@import "../utils/variables";
+
+#countdown
+{
+    background: linear-gradient(90deg, #B899FF -1.13%, #8B5CF6 101.43%);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.247);
+    height: 90px;
+    width: 554px;
+    position: relative;
+    color: $white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 49px;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-left: -50px;
+}
+
+.head__timer
+{
+    position: absolute;
+    background-color: $white;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.151);
+    width: 554px;
+    height: 128px;
+    margin-left: 858px;
+    padding-left: 20px;
+}
+
+.head__timer,
+.timer--text
+{
+    display: inline-block;
+    color: $Soft-violet;
+    padding-right: 20px;
+}
